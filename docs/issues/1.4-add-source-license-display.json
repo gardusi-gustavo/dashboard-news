@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add source license display",
+  "context": "Readers cannot see provider licensing.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Render the license from the source registry.",
+    "expected_outcome": "Every article shows its source license.",
+    "acceptance_criteria": [
+      "Missing license is visible",
+      "License links are safe"
+    ]
+  },
+  "attempts": []
+}

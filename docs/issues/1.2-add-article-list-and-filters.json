@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add article list and filters",
+  "context": "There is no usable news view.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add category, source, and date filters.",
+    "expected_outcome": "A reader can filter the article list.",
+    "acceptance_criteria": [
+      "Filters are static-friendly",
+      "Empty state is shown"
+    ]
+  },
+  "attempts": []
+}

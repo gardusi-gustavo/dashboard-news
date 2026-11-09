@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add search and pagination",
+  "context": "Large result sets are not navigable.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a generated search index and pagination.",
+    "expected_outcome": "Search and paging work without a backend.",
+    "acceptance_criteria": [
+      "Index is generated at build",
+      "Paging is deterministic"
+    ]
+  },
+  "attempts": []
+}

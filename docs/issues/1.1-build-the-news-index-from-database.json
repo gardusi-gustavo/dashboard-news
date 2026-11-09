@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Build the news index from database",
+  "context": "The dashboard does not yet read the database at build time.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add the build-time data contract.",
+    "expected_outcome": "The site builds from a pinned database checkout.",
+    "acceptance_criteria": [
+      "No runtime database call",
+      "Build fails on missing data"
+    ]
+  },
+  "attempts": []
+}
