@@ -1,0 +1,30 @@
+{
+  "rank": "1.1",
+  "title": "Define the search and index contract",
+  "context": "Define how news articles are indexed, queried, ranked, and paginated.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define the search and index contract",
+    "expected_outcome": "Confirm the migrated scope and acceptance criteria.",
+    "acceptance_criteria": [
+      "Indexed fields are documented.",
+      "Queries support source and date filters.",
+      "Ranking is deterministic.",
+      "Pagination is stable.",
+      "The index can be rebuilt from stored articles.",
+      "A fixture query returns the expected result.",
+      "Define the index.",
+      "Implement the query surface.",
+      "Add ranking rules.",
+      "Add fixtures.",
+      "Document the rebuild.",
+      "A duplicate article appears once.",
+      "A date filter excludes older results.",
+      "Rebuilding produces the same index."
+    ]
+  },
+  "attempts": []
+}
