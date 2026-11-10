@@ -1,6 +1,6 @@
 # Data
 
-The build checks out `gardusi-gustavo/database` and reads
+The build checks out `gardusi-gustavo/database-news` and reads
 `data/news/YYYY-MM-DD.json`. It copies the selected dataset into
 `dist/data/news.json` and renders `dist/index.html`.
 

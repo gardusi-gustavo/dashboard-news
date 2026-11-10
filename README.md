@@ -1,6 +1,6 @@
 # dashboard-news
 
-News reader. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database` at build time; there is no runtime CORS call.
+News reader. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database-news` at build time; there is no runtime CORS call.
 
 ## Repository facts
 
